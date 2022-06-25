@@ -17,7 +17,6 @@ CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-app-watchcat=y
-CONFIG_PACKAGE_luci-watchcat=y
 
 ## VPN
 CONFIG_PACKAGE_tailscale=y

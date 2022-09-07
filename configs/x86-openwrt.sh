@@ -9,10 +9,10 @@ CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
 
 ## app
-CONFIG_PACKAGE_luci-app-acme=y
+CONFIG_PACKAGE_luci-app-acme=n
 CONFIG_PACKAGE_luci-app-omcproxy=y
-CONFIG_PACKAGE_luci-app-sqm=y
-CONFIG_PACKAGE_acme-dnsapi=y
+CONFIG_PACKAGE_luci-app-sqm=n
+CONFIG_PACKAGE_acme-dnsapi=n
 
 ## USB Storage
 CONFIG_PACKAGE_kmod-usb-storage=y

@@ -16,8 +16,8 @@ on:
         description: Release note txt file name.
         required: true
         default: release_note.txt
-  schedule:
-    - cron: '* * * * *'
+  #schedule:
+  #  - cron: '* * * * *'
 
 env:
   TZ: 'Asia/Shanghai'

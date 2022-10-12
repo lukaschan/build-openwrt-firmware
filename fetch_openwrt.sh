@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://github.com/haisongliang/udpxy.git openwrt
+(git clone https://github.com/haisongliang/udpxy.git openwrt)
 (git clone https://github.com/immortalwrt/immortalwrt openwrt) || (cd openwrt && git stash && git pull)
 
 cd openwrt

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-(git clone https://github.com/immortalwrt/immortalwrt openwrt) || (cd openwrt && git stash && git pull)
+(git clone https://github.com/immortalwrt/immortalwrt openwrt  && git clone https://github.com/kiddin9/openwrt-packages openwrt) || (cd openwrt && git stash && git pull)
 
 cd openwrt
 echo "src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git;packages" >> feeds.conf.default

@@ -5,6 +5,7 @@
 cd openwrt
 echo "src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
 echo "src-git xiaorouji2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> feeds.conf.default
+echo "src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;main" >> feeds.conf.default
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a

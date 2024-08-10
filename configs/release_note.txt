@@ -1,6 +1,6 @@
 Firmware information:
 
->Default IP: `192.168.2.252`
+>Default IP: `192.168.22.252`
 >Default username: `root`
 >Default password: `password`
 >Default AP: `Openwrt` (open)

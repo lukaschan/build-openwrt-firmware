@@ -1,6 +1,6 @@
 #!/bin/bash
 
-(git clone -b v21.02.3 https://github.com/immortalwrt/immortalwrt openwrt) || (cd openwrt && git stash && git pull)
+(git clone -b v23.05.3 https://github.com/immortalwrt/immortalwrt openwrt) || (cd openwrt && git stash && git pull)
 
 cd openwrt
 echo "src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
